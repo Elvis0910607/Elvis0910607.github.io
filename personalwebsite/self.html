@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvis Han-Yi Chiou</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7fc;
+            color: #333;
+        }
+        .banner {
+            width: 100%;
+            height: 250px;
+            background: url('xingbao1.jpg') center/contain no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+            width: 70%;
+        }
+        .profile img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            margin-right: 25px;
+            border: 5px solid #007bff;
+            object-fit: cover;
+            object-position: center;
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+        .info p {
+            margin: 8px 0;
+        }
+        .info a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-top: 30px;
+            padding: 25px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+            width: 70%;
+            text-align: left;
+        }
+        h2 {
+            border-bottom: 4px solid #007bff;
+            padding-bottom: 8px;
+            color: #007bff;
+            font-size: 30px;
+        }
+        /* 設定專案區塊 */
+        .project {
+            margin-top: 15px;
+            padding: 10px;
+            border-bottom: 2px solid #ddd;
+        }
+        .project img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+            margin-top: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">Welcome to My Portfolio</div>
+    <div class="container">
+        <h1>Elvis Han-Yi Chiou (邱翰奕)</h1>
+        <div class="profile">
+            <img src="tokyo1.jpg" alt="Elvis Chiou">
+            <div class="info">
+                <p>MBA in Business and Management</p>
+                <p>National Yang Ming Chiao Tung University</p>
+                <p>Github: <a href="https://github.com/Elvis0910607">https://github.com/Elvis0910607</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100004720994312">Facebook Profile</a></p>
+                <p>Email: b10908032@gapps.ntust.edu.tw</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>About Me</h2>
+            <p>Welcome! I am a graduate student in the Institute of Business and Management at National Yang Ming Chiao Tung University (NYCU). I am interested in Financial Engineering, Optimization, Machine Learning, and Large Language Models.</p>
+        </div>
+        <div class="section">
+            <h2>Work Experience</h2>
+            <p>Research Analyst Intern, Delftware Capital Management (Dec. 2023 – Oct. 2024)</p>
+        </div>
+        <div class="section">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <strong>LLM-Sentiment Score Quantification Strategy</strong>
+                <p>Using LLM to estimate news sentiment and build trading strategies.</p>
+                <img src="trading.png" alt="Stock Market Sentiment Analysis">
+            </div>
+
+            <div class="project">
+                <strong>Variance-Reduced and Projection-Free Stochastic Optimization</strong>
+                <p>Optimization Algorithms Comparison: SGD, SVRG, and STORC.</p>
+                <img src="opmposter.png" alt="Algorithmic Trading Strategy">
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
