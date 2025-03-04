@@ -1,0 +1,74 @@
+/* 引入 Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* 全局樣式 */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* 頁首設計 */
+header.page-header {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 40px 10px;
+    border-bottom: 5px solid #ff7e5f;
+}
+
+h1.project-name {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2.project-tagline {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* 主要內容區域 */
+main {
+    padding: 40px 10px;
+}
+
+h2 {
+    color: #ff5733;
+    font-size: 2em;
+    border-bottom: 3px solid #ff5733;
+    display: block;
+    padding-bottom: 5px;
+    margin-top: 40px; /* 增加上方間距 */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* 圖片美化 */
+img {
+    width: 80%;
+    max-width: 942px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    display: block; /* 讓圖片換行，避免與文字並排 */
+    margin: 20px auto; /* 置中，並增加上下間距 */
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* 頁腳 */
+footer.site-footer {
+    background: #222;
+    color: white;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
